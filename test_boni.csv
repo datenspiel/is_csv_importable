@@ -1,0 +1,9 @@
+product_id;type;zahl;kind
+1;Wechselprämie;50.00;festpreis
+2;1 JV -Nach den 1. Jahr;15;festpreis
+2;1 JV -Nach dem 2.Jahr;20;festpreis
+2;1 JV -Nach dem 3.Jahr;25;festpreis
+2;2 JV -Nach den 1. Jahr;25;festpreis
+2;2 JV -Nach dem 2.Jahr;30;festpreis
+2;2 JV -Nach dem 3.Jahr;35;festpreis
+4;1 J ab 1001 kWh  Rabatt ;1,40 ct./KwH;Verbrauchsabhängig

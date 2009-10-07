@@ -1,0 +1,28 @@
+IsCsvImportable
+===============
+
+Create ActiveRecord Objects from arbitray CSV files.
+
+
+Example
+=======
+
+	class BlogEntry < ActiveRecord::Base
+	
+		is_csv_importable ({:b_author => :author,
+												:b_entry => :title,
+												:b_body => :text})
+												
+		csv_seperator ";"
+		
+	end
+	
+	@entry = BlogEntry.new
+	if @entry.import("/home/path/fo/file.csv")
+		flash[:notice] = "Data imported"
+	else
+		flash[:error] = "Could'nt import data"
+	end
+
+
+Copyright (c) 2009 Daniel Schmidt for datenspiel.com, released under the MIT license
